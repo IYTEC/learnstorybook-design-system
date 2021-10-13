@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
-import { darken, rgba } from 'polished';
 import { color, typography } from './shared/styles';
+import { darken, rgba } from 'polished';
+
+import PropTypes from 'prop-types';
 import { easing } from './shared/animation';
+import styled from 'styled-components';
 
 const Text = styled.span`
   display: inline-block;
@@ -55,6 +56,9 @@ const StyledButton = styled.button`
   font-size: ${props => (props.size === SIZES.SMALL ? typography.size.s1 : typography.size.s2)}px;
   font-weight: ${typography.weight.extrabold};
   line-height: 1;
+
+  // border: 10px solid red;
+  // font-size: 20px;
 
   ${props =>
     !props.isLoading &&
