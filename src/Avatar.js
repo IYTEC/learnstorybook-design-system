@@ -1,9 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled, { css } from 'styled-components';
 import { color, typography } from './shared/styles';
-import { glow } from './shared/animation';
+import styled, { css } from 'styled-components';
+
 import { Icon } from './Icon';
+import PropTypes from 'prop-types';
+import React from 'react';
+import { glow } from './shared/animation';
 
 export const sizes = {
   large: 40,
@@ -20,9 +21,9 @@ const Image = styled.div`
   overflow: hidden;
   text-transform: uppercase;
 
-  height: ${sizes.medium}px;
-  width: ${sizes.medium}px;
-  line-height: ${sizes.medium}px;
+  // height: ${sizes.medium}px;
+  // width: ${sizes.medium}px;
+  // line-height: ${sizes.medium}px;
 
   ${props =>
     props.size === 'tiny' &&
