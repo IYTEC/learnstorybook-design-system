@@ -21,9 +21,9 @@ const Image = styled.div`
   overflow: hidden;
   text-transform: uppercase;
 
-  // height: ${sizes.medium}px;
-  // width: ${sizes.medium}px;
-  // line-height: ${sizes.medium}px;
+  height: ${sizes.medium}px;
+  width: ${sizes.medium}px;
+  line-height: ${sizes.medium}px;
 
   ${props =>
     props.size === 'tiny' &&
