@@ -114,7 +114,7 @@ export const bodyStyles = css`
 `;
 
 export const GlobalStyle = createGlobalStyle`
- body {
-   ${bodyStyles}
- }
+  body {
+    ${bodyStyles}
+  }
 `;
