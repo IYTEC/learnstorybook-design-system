@@ -19,4 +19,16 @@ export const parameters = {
       date: /Date$/,
     },
   },
-}
+  // docs: {
+  //   source: {
+  //     state: 'open',
+  //   },
+  // },
+  // Storybook a11y addon configuration
+  a11y: {
+    // the target DOM element
+    element: '#root',
+    // sets the execution mode for the addon
+    manual: false,
+  },
+};

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@storybook/addon-a11y": "^6.3.12",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -10,6 +11,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
+    "storybook-addon-react-docgen": "^1.2.42",
     "styled-components": "^5.2.1",
     "web-vitals": "^1.0.1"
   },
@@ -52,12 +54,13 @@
     ]
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^6.3.11",
-    "@storybook/addon-essentials": "^6.3.11",
-    "@storybook/addon-links": "^6.3.11",
-    "@storybook/node-logger": "^6.3.11",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-docs": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/node-logger": "^6.3.12",
     "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.3.11",
+    "@storybook/react": "^6.3.12",
     "chromatic": "^6.0.4"
   }
 }
