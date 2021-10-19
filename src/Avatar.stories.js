@@ -6,12 +6,7 @@ export default {
   component: Avatar,
   parameters: {
     componentSubtitle: 'Displays an image that represents a user or organization',
-  },
-  // parameters: {
-  //   componentSubtitle: 'Displays an image that represents a user or organization',
-  //   previewTabs: { canvas: { hidden: true } },
-  //   docsOnly: true,
-  // },
+  }
 };
 
 export const Standard = (args) => <Avatar {...args} />;
